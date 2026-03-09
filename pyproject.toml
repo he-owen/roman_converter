@@ -28,7 +28,7 @@ addopts = [
 ]
 
 [tool.coverage.run]
-omit = ["**/__init__.py", "**/test/**"]
+omit = ["**/__init__.py", "**/tests/**"]
 
 [build-system]
 requires = ["uv_build >= 0.10.0, <0.11.0"]
